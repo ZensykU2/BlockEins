@@ -40,7 +40,16 @@ string reversed = new string(name.Reverse().ToArray());
 Console.WriteLine(reversed);
 Console.WriteLine(gross);
 Console.WriteLine(klein);
-*/ 
+*/
+
+//Aufgabe 3.2
+/*Console.Write("Gib das erste Wort ein: ");
+string wort1 = Console.ReadLine();
+Console.Write("Gib das zweite Wort ein: ");
+string wort2 = Console.ReadLine();
+string neuesWort = wort1 + wort2;
+Console.WriteLine("Das neue Wort ist: " + neuesWort);
+*/
 
 
 
