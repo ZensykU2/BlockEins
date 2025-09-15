@@ -133,7 +133,7 @@ else if(num < 0 || num > 100)
 // Bei "&&" müssen beide zutreffen bei "||" muss eins davon zutreffen.
 
 //Aufgabe 9.1 & 9.2 & 9.3
-Console.Write("Bitte füge dein Passwort ein");
+/* Console.Write("Bitte füge dein Passwort ein");
 string password = Console.ReadLine();
 if (password != null && password.Length > 8)
 {
@@ -143,3 +143,21 @@ else
 {
     Console.WriteLine("Das Passwort ist zu kurz.");
 }
+*/
+
+//Aufgabe 10
+Console.Write("Wie schnell fährt dein Auto (km/h)? ");
+double geschwindigkeit = Convert.ToDouble(Console.ReadLine());
+Console.Write("Wie hoch ist der Verbrauch deines Autos (Liter pro 100 km)? ");
+double verbrauchPro100km = Convert.ToDouble(Console.ReadLine());
+Console.Write("Wie viele Kilometer möchtest du fahren? ");
+double distanz = Convert.ToDouble(Console.ReadLine());
+
+double fahrzeitStunden = distanz / geschwindigkeit;
+
+double fahrzeitMinuten = fahrzeitStunden * 60;
+
+double gesamtverbrauch = (verbrauchPro100km / 100) * distanz;
+
+Console.WriteLine($"Fahrzeit: {fahrzeitMinuten:F2} Minuten");
+Console.WriteLine($"Gesamter Benzinverbrauch: {gesamtverbrauch:F2} Liter");
