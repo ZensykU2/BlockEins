@@ -73,5 +73,12 @@ Console.WriteLine($"Division: {Math.Round(divisionNum, 2)}");
 /*Aufgabe 4.2 
  In Python ist der Unterschied zwischen "/" und "//" ob die nach-komma-stelle angezeigt werden soll oder es gerundet werden soll*/
 
+//Aufgabe 5.1
+/* int x = 5;
+x += 1;
+Console.WriteLine(x);
+x -= 2;
+Console.WriteLine(x);
+*/
 
 
