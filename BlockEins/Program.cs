@@ -81,4 +81,12 @@ x -= 2;
 Console.WriteLine(x);
 */
 
+//Aufgabe 6.1
+/*double preisProRiegel = 3.20;
+double geld = 20.0;
+int anzahlRiegel = (int)(geld / preisProRiegel);
+double restGeld = geld % preisProRiegel;
 
+Console.WriteLine($"Mit {geld} Franken kannst du {anzahlRiegel} Riegel kaufen.");
+Console.WriteLine("Es bleiben " + restGeld.ToString("F2") + " Franken übrig.");
+*/
