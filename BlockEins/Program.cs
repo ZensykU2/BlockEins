@@ -90,3 +90,24 @@ double restGeld = geld % preisProRiegel;
 Console.WriteLine($"Mit {geld} Franken kannst du {anzahlRiegel} Riegel kaufen.");
 Console.WriteLine("Es bleiben " + restGeld.ToString("F2") + " Franken übrig.");
 */
+
+//Aufgabe 7.1
+/* Console.Write("Bitte gib die erste Zahl ein: ");
+double num1 = Convert.ToDouble(Console.ReadLine());
+
+Console.Write("Bitte gib die zweite Zahl ein: ");
+double num2 = Convert.ToDouble(Console.ReadLine());
+
+if (num1 > num2)
+{
+    Console.WriteLine("Die erste Zahl ist größer als die zweite Zahl.");
+}
+else if (num1 == num2)
+{
+    Console.WriteLine("Die beiden Zahlen sind gleich.");
+}
+else
+{
+    Console.WriteLine("Die zweite Zahl ist größer als die erste Zahl.");
+}
+*/ 
