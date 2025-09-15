@@ -2,7 +2,7 @@
 // Aufgabe 1.1
 /* Console.WriteLine("Bitte schreibe deinen Namen");
 string name = Console.ReadLine();
-Console.WriteLine("Hallo " + name + "! Schön, dass du da bist.");
+Console.WriteLine($"Hallo {name}! Schön, dass du da bist.");
 */
 
 //Aufgabe 1.2
@@ -51,5 +51,23 @@ string neuesWort = wort1 + wort2;
 Console.WriteLine("Das neue Wort ist: " + neuesWort);
 */
 
+//Aufgabe 4.1
+/*Console.WriteLine("Bitte gib die erste Zahl ein: ");
+string num1 = Console.ReadLine();
+Console.WriteLine("Bitte gib die zweite Zahl ein: ");
+string num2 = Console.ReadLine();
+double parseNum1 = double.Parse(num1);
+double parseNum2 = double.Parse(num2);
+
+double divisionNum = parseNum1 / parseNum2;
+double additionNum = parseNum1 + parseNum2;
+double subtractionNum = parseNum1 - parseNum2;
+double multiplicationNum = parseNum1 * parseNum2;
+
+Console.WriteLine($"Addition: {Math.Round(additionNum, 2)}");
+Console.WriteLine($"Subtraktion: {Math.Round(subtractionNum, 2)}");
+Console.WriteLine($"Multiplikation: {Math.Round(multiplicationNum, 2)}");
+Console.WriteLine($"Division: {Math.Round(divisionNum, 2)}");
+*/
 
 
