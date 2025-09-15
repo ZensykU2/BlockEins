@@ -17,11 +17,18 @@ Console.WriteLine("Hier ist nun die Summe der zwei Zahlen: " + sum);
 */
 
 //Aufgabe 2.1
-int var1 = 2;
+/* int var1 = 2;
 double var2 = 2.3;
 string var3 = "Zwei";
 
 Console.WriteLine(var1.GetType());
 Console.WriteLine(var2.GetType());
 Console.WriteLine(var3.GetType());
+*/
+
+/*Aufgabe 2.2
+ Ein "=" fügt etwas hinzu und zwei "==" bedeutet est ist gleich gültig*/
+
+
+
 
