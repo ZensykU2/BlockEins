@@ -111,3 +111,7 @@ else
     Console.WriteLine("Die zweite Zahl ist größer als die erste Zahl.");
 }
 */ 
+
+/*Aufgabe 7.2 
+ Es gibt True aus.*/
+
