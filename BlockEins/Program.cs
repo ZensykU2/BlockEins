@@ -116,7 +116,7 @@ else
  Es gibt True aus.*/
 
 //Aufgabe 8.1 & 8.2
-Console.WriteLine("Bitte gib eine Zahl ein");
+/*Console.WriteLine("Bitte gib eine Zahl ein");
 string stringNum = Console.ReadLine();
 double num = double.Parse(stringNum);
 if(num > 10 && num < 20 )
@@ -127,7 +127,19 @@ else if(num < 0 || num > 100)
 {
     Console.WriteLine($"Die Nummer {num} ist kleiner als 0 oder grösser als 100");
 }
+*/
 
 //Aufgabe 8.3
 // Bei "&&" müssen beide zutreffen bei "||" muss eins davon zutreffen.
 
+//Aufgabe 9.1 & 9.2 & 9.3
+Console.Write("Bitte füge dein Passwort ein");
+string password = Console.ReadLine();
+if (password != null && password.Length > 8)
+{
+    Console.WriteLine("Das Passwort ist lang genug.");
+}
+else
+{
+    Console.WriteLine("Das Passwort ist zu kurz.");
+}
