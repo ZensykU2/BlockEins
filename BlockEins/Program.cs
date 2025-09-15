@@ -29,6 +29,18 @@ Console.WriteLine(var3.GetType());
 /*Aufgabe 2.2
  Ein "=" fügt etwas hinzu und zwei "==" bedeutet est ist gleich gültig*/
 
+//Aufgabe 3.1
+/* string name = "Cristian";
+
+string gross = name.ToUpper();
+string klein = name.ToLower();
+
+string reversed = new string(name.Reverse().ToArray());
+
+Console.WriteLine(reversed);
+Console.WriteLine(gross);
+Console.WriteLine(klein);
+*/ 
 
 
 
