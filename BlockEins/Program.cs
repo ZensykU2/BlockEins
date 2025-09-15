@@ -146,7 +146,7 @@ else
 */
 
 //Aufgabe 10
-Console.Write("Wie schnell fährt dein Auto (km/h)? ");
+/* Console.Write("Wie schnell fährt dein Auto (km/h)? ");
 double geschwindigkeit = Convert.ToDouble(Console.ReadLine());
 Console.Write("Wie hoch ist der Verbrauch deines Autos (Liter pro 100 km)? ");
 double verbrauchPro100km = Convert.ToDouble(Console.ReadLine());
@@ -161,3 +161,24 @@ double gesamtverbrauch = (verbrauchPro100km / 100) * distanz;
 
 Console.WriteLine($"Fahrzeit: {fahrzeitMinuten:F2} Minuten");
 Console.WriteLine($"Gesamter Benzinverbrauch: {gesamtverbrauch:F2} Liter");
+*/
+
+//Aufgabe 11
+Console.Write("Bitte gib dein Gewicht in Kilogramm ein: ");
+double weight = Convert.ToDouble(Console.ReadLine());
+
+Console.Write("Bitte gib deine Größe in Metern ein (z.B. 1.75): ");
+double height = Convert.ToDouble(Console.ReadLine());
+double bmi = weight / (height * height);
+string classification = bmi switch
+{
+    < 18.5 => "Untergewicht",
+    < 25 => "Normalgewicht",
+    < 30 => "Übergewicht",
+    < 35 => "Adipositas Grad I",
+    < 40 => "Adipositas Grad II",
+    _ => "Adipositas Grad III"
+};
+
+Console.WriteLine($"Dein BMI beträgt: {bmi:F2}");
+Console.WriteLine($"Klassifikation: {classification}");
