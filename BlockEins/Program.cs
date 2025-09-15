@@ -110,8 +110,24 @@ else
 {
     Console.WriteLine("Die zweite Zahl ist größer als die erste Zahl.");
 }
-*/ 
+*/
 
 /*Aufgabe 7.2 
  Es gibt True aus.*/
+
+//Aufgabe 8.1 & 8.2
+Console.WriteLine("Bitte gib eine Zahl ein");
+string stringNum = Console.ReadLine();
+double num = double.Parse(stringNum);
+if(num > 10 && num < 20 )
+{
+    Console.WriteLine($"Die Nummer {num} ist grösser als 10 und kleiner als 20");
+}
+else if(num < 0 || num > 100)
+{
+    Console.WriteLine($"Die Nummer {num} ist kleiner als 0 oder grösser als 100");
+}
+
+//Aufgabe 8.3
+// Bei "&&" müssen beide zutreffen bei "||" muss eins davon zutreffen.
 
