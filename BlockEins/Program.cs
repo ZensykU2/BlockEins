@@ -164,7 +164,7 @@ Console.WriteLine($"Gesamter Benzinverbrauch: {gesamtverbrauch:F2} Liter");
 */
 
 //Aufgabe 11
-Console.Write("Bitte gib dein Gewicht in Kilogramm ein: ");
+/* Console.Write("Bitte gib dein Gewicht in Kilogramm ein: ");
 double weight = Convert.ToDouble(Console.ReadLine());
 
 Console.Write("Bitte gib deine Größe in Metern ein (z.B. 1.75): ");
@@ -182,3 +182,16 @@ string classification = bmi switch
 
 Console.WriteLine($"Dein BMI beträgt: {bmi:F2}");
 Console.WriteLine($"Klassifikation: {classification}");
+*/
+
+//Aufgabe 12
+/*Console.WriteLine("Bitte Stunden eingeben:");
+int hours = int.Parse(Console.ReadLine());
+Console.WriteLine("Bitte Minuten eingeben:");
+int minutes = int.Parse(Console.ReadLine());
+Console.WriteLine("Bitte Sekunden eingeben:");
+int seconds = int.Parse(Console.ReadLine());
+
+double decimalHours = hours + (minutes / 60.0) + (seconds / 3600.0);
+Console.WriteLine($"Ergebnis in Dezimalstunden: {decimalHours:F2} Stunden");
+*/
